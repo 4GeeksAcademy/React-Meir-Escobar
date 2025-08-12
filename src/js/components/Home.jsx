@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../component/Navbar.jsx";
-import Jumbotron from "../component/Jumbotron.jsx";
-import Card from "../component/Card.jsx";
-import Footer from "../component/Footer.jsx";
+import Navbar from "./Navbar.jsx";
+import Jumbotron from "./Jumbotron.jsx";
+import Card from "./Card.jsx";
+import Footer from "./Footer.jsx";
 
-import img from "../img/500x325.png";
+import img from "/src/img/500x325.png";
 
 const Home = () => {
   const cardsData = [
